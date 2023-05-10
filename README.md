@@ -37,11 +37,7 @@ $$
 $$
 
 with a suitable loss metric $l$. However, there are many more options to
-consider, which are listed in the following table. They differ in the length of their rollouts, their interplay with the (differentiable) ground truth solver and potential manipulations of the reverse pass to achieve desirable gradient properties.
-
-| Primal | Reverse-1 | Reverse-2 | Reverse-3 |
-| --- | --- | --- | --- |
-| One-step supervised training | full gradient | - | - |
-| sup-1-none-true-primal ![](https://ceyron.github.io/predictor-learning-setups/sup-1-none-true-primal.svg) | sup-1-none-true-full_gradient ![](https://ceyron.github.io/predictor-learning-setups/sup-1-none-true-full_gradient.svg)| - | - |
-| Two-step supervised training with loss aggregated over all time steps | full gradient | no backpropagation through time over network | - |
-| sup-2-none-true-primal ![](https://ceyron.github.io/predictor-learning-setups/sup-2-none-true-primal.svg) | sup-2-none-true-full_gradient ![](https://ceyron.github.io/predictor-learning-setups/sup-2-none-true-full_gradient.svg) | sup-2-none-true-no_bptt ![](https://ceyron.github.io/predictor-learning-setups/sup-2-none-true-no_net_bptt.svg) | - |
+consider, which are listed in the following table. They differ in the length of
+their rollouts, their interplay with the (differentiable) ground truth solver
+and potential manipulations of the reverse pass to achieve desirable gradient
+properties.

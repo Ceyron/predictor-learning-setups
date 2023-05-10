@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Predictor Learning Setups</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="p-2">
+<h1 class="text-center">Predictor Learning Setups</h1>
+<p class="text-center">
+  Created with ❤️ by <a href="https://www.youtube.com/@MachineLearningSimulation">Machine Learning & Simulation</a>.
+</p>
+<p class="text-center">
+  <a href="https://twitter.com/felix_m_koehler?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @felix_m_koehler</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<table class="table table-striped table-hover text-center">
+  <thead>
+    <tr>
+      <th>Primal</th>
+      <th>Reverse-1</th>
+      <th>Reverse-2</th>
+      <th>Reverse-3</th>
+    </tr>
+  <tbody>
+  <!-- <tr>
+    <td><b>Supervised Setups</b></td>
+    <td colspan="3"></td>
+  </tr> -->
+  <tr>
+    <td>
+      <p><b>sup-1-none-true-primal</b></p>
+      <p>one-step supervised training</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/sup-1-none-true-primal.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>sup-1-none-true-full_gradient</b></p>
+      <p>full gradient</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/sup-1-none-true-full_gradient.svg">
+      </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><b>sup-2-none-true-primal</b></p>
+      <p>two-step supervised training with aggregation over time</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/sup-2-none-true-primal.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>sup-2-none-true-full_gradient</b></p>
+      <p>full gradient</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/sup-2-none-true-full_gradient.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>sup-2-none-true-no_net_bptt</b></p>
+      <p>no backpropagation through time over the network</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/sup-2-none-true-no_net_bptt.svg">
+      </p>
+    </td>
+    <td>
+    </td>
+  </tr>
+  </tbody>
+</table> 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
