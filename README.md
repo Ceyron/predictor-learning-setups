@@ -1,5 +1,7 @@
 # Predictor Learning Setups
 
+👉 Here is the [web version](https://ceyron.github.io/predictor-learning-setups/).
+
 Assume you have a partial differential equation with boundary conditions turned
 into a timestepper. In other words, there is discrete mechanism that advances
 your discrete vector of degrees of freedom at time level $[t]$, $u_h^{[t]}$, such
@@ -41,3 +43,5 @@ consider, which are listed in the following table. They differ in the length of
 their rollouts, their interplay with the (differentiable) ground truth solver
 and potential manipulations of the reverse pass to achieve desirable gradient
 properties.
+
+You find the table in the [web version](https://ceyron.github.io/predictor-learning-setups/) including a unique identifier for each setup together with its corresponding setup.
