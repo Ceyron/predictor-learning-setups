@@ -18,7 +18,7 @@ given an initial condition $u_h^{[0]}$.
 
 Now, we want to approximately learn this timestepper by a neural network,
 
-$$f(u_h^{[t]}; \theta) \approx \mathcal{P}_h(u_h^{[t]}).$$
+$$ f(u_h^{[t]}; \theta) \approx \mathcal{P}_h(u_h^{[t]}).$$
 
 In other words, we need to find a set of parameters $\theta$ that yields a
 neural timestepper with desirable properties, e.g.:
