@@ -12,7 +12,7 @@ converges against hypothetical analytical solutions. It shall always operate on 
 fixed time step size, $[t+1] - [t] = \Delta t$ Then, this timestepper could be
 used recursively to produce a rollout/trajectory
 
-$$ \left \\{ u_h^{[s]}=\mathcal{P}_h^s(u_h^{[0]})\right\\}_{s=0}^t,$$
+$$ \left \\\{ u_h^{[s]}=\mathcal{P}_h^s(u_h^{[0]})\right\\\}_{s=0}^t,$$
 
 given an initial condition $u_h^{[0]}$.
 
