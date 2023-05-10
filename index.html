@@ -351,6 +351,87 @@ MathJax = {
       </p>
     </td>
   </tr>
+  <!-- <tr>
+    <td><b>Teacher Forcing Setups</b></td>
+    <td colspan="3"></td>
+  </tr> -->
+  <tr>
+    <td>
+      <p><b>tf-3-1-true-primal</b></p>
+      <p>three-step supervised rollout with state reset after each prediction</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-3-1-true-primal.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>tf-3-1-true-full_gradient</b></p>
+      <p>full gradient</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-3-1-true-full_gradient.svg">
+      </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><b>tf-4-2-true-primal</b></p>
+      <p>four-step supervised rollout with state reset after every second prediction</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-4-2-true-primal.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>tf-4-2-true-full_gradient</b></p>
+      <p>full gradient</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-4-2-true-full_gradient.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>tf-4-2-true-no_net_bptt</b></p>
+      <p>no backpropagation through time over the network</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-4-2-true-no_net_bptt.svg">
+      </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><b>tf-4-2-false-primal</b></p>
+      <p>four-step supervised rollout with state reset after every second prediction; loss only at end of each forcing period</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-4-2-false-primal.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>tf-4-2-false-full_gradient</b></p>
+      <p>full gradient</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-4-2-false-full_gradient.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>tf-4-2-false-no_net_bptt</b></p>
+      <p>no backpropagation through time over the network</p>
+      <p>
+        <img class="img-fluid" src="https://ceyron.github.io/predictor-learning-setups/tf-4-2-false-no_net_bptt.svg">
+      </p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+
   </tbody>
 </table> 
 
