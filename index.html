@@ -316,45 +316,8 @@ MathJax = {
   </tr> -->
   <tr>
     <td>
-      <p><b>div-1-1-true-primal</b></p>
-      <p>diverted-chain with one main step and one branch step</p>
-      <p>
-        <img class="img-fluid" src="div-1-1-true-primal.svg">
-      </p>
-    </td>
-    <td>
-      <p><b>div-1-1-true-full_gradient</b></p>
-      <p>full gradient</p>
-      <p>
-        <img class="img-fluid" src="div-1-1-true-full_gradient.svg">
-      </p>
-    </td>
-    <td>
-      <p><b>div-1-1-true-no_dp</b></p>
-      <p>no differentiable physics</p>
-      <p>
-        <img class="img-fluid" src="div-1-1-true-no_dp.svg">
-      </p>
-    </td>
-    <td>
-      <p><b>div-1-1-true-no_net_bptt</b></p>
-      <p>no backpropagation through time over the network</p>
-      <p>
-        <img class="img-fluid" src="div-1-1-true-no_net_bptt.svg">
-      </p>
-    </td>
-    <td>
-      <p><b>div-1-1-true-no_dp-no_net_bptt</b></p>
-      <p>no differentiable physics and no backpropagation through time over the network</p>
-      <p>
-        <img class="img-fluid" src="div-1-1-true-no_dp-no_net_bptt.svg">
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
       <p><b>div-2-1-true-primal</b></p>
-      <p>diverted chain with two main steps and one branch step</p>
+      <p>diverted-chain with two steps in main chain and one branch length</p>
       <p>
         <img class="img-fluid" src="div-2-1-true-primal.svg">
       </p>
@@ -366,14 +329,32 @@ MathJax = {
         <img class="img-fluid" src="div-2-1-true-full_gradient.svg">
       </p>
     </td>
-    <td>todo</td>
-    <td>todo</td>
-    <td>todo</td>
+    <td>
+      <p><b>div-2-1-true-no_dp</b></p>
+      <p>no differentiable physics</p>
+      <p>
+        <img class="img-fluid" src="div-2-1-true-no_dp.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>div-2-1-true-no_net_bptt</b></p>
+      <p>no backpropagation through time over the network</p>
+      <p>
+        <img class="img-fluid" src="div-2-1-true-no_net_bptt.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>div-2-1-true-no_dp-no_net_bptt</b></p>
+      <p>no differentiable physics and no backpropagation through time over the network</p>
+      <p>
+        <img class="img-fluid" src="div-2-1-true-no_dp-no_net_bptt.svg">
+      </p>
+    </td>
   </tr>
   <tr>
     <td>
       <p><b>div-3-1-true-primal</b></p>
-      <p>diverted chain with three main steps and one branch step</p>
+      <p>diverted chain with three steps in main chain and one branch step length</p>
       <p>
         <img class="img-fluid" src="div-3-1-true-primal.svg">
       </p>
@@ -391,17 +372,17 @@ MathJax = {
   </tr>
   <tr>
     <td>
-      <p><b>div-1-2-true-primal</b></p>
-      <p>diverted chain with one main step and two branch steps</p>
+      <p><b>div-4-1-true-primal</b></p>
+      <p>diverted chain with four steps in main chain and one branch step length</p>
       <p>
-        <img class="img-fluid" src="div-1-2-true-primal.svg">
+        <img class="img-fluid" src="div-4-1-true-primal.svg">
       </p>
     </td>
     <td>
-      <p><b>div-1-2-true-full_gradient</b></p>
+      <p><b>div-4-1-true-full_gradient</b></p>
       <p>full gradient</p>
       <p>
-        <img class="img-fluid" src="div-1-2-true-full_gradient.svg">
+        <img class="img-fluid" src="div-4-1-true-full_gradient.svg">
       </p>
     </td>
     <td>todo</td>
@@ -410,17 +391,17 @@ MathJax = {
   </tr>
   <tr>
     <td>
-      <p><b>div-1-2-false-primal</b></p>
-      <p>diverted chain with one main step and two branch steps with loss only at final state of the branch</p>
+      <p><b>div-3-2-true-primal</b></p>
+      <p>diverted chain with three steps in main chain and branch chain of length two</p>
       <p>
-        <img class="img-fluid" src="div-1-2-false-primal.svg">
+        <img class="img-fluid" src="div-3-2-true-primal.svg">
       </p>
     </td>
     <td>
-      <p><b>div-1-2-false-full_gradient</b></p>
+      <p><b>div-3-2-true-full_gradient</b></p>
       <p>full gradient</p>
       <p>
-        <img class="img-fluid" src="div-1-2-false-full_gradient.svg">
+        <img class="img-fluid" src="div-3-2-true-full_gradient.svg">
       </p>
     </td>
     <td>todo</td>
@@ -429,17 +410,17 @@ MathJax = {
   </tr>
   <tr>
     <td>
-      <p><b>div-2-2-true-primal</b></p>
-      <p>diverted chain with two main steps and two branch steps</p>
+      <p><b>div-3-2-false-primal</b></p>
+      <p>diverted chain with three steps in main chain and branch chain of length two with loss only at final state of the branch</p>
       <p>
-        <img class="img-fluid" src="div-2-2-true-primal.svg">
+        <img class="img-fluid" src="div-3-2-false-primal.svg">
       </p>
     </td>
     <td>
-      <p><b>div-2-2-true-full_gradient</b></p>
+      <p><b>div-3-2-false-full_gradient</b></p>
       <p>full gradient</p>
       <p>
-        <img class="img-fluid" src="div-2-2-true-full_gradient.svg">
+        <img class="img-fluid" src="div-3-2-false-full_gradient.svg">
       </p>
     </td>
     <td>todo</td>
@@ -448,17 +429,36 @@ MathJax = {
   </tr>
   <tr>
     <td>
-      <p><b>div-2-2-false-primal</b></p>
-      <p>diverted chain with two main steps and two branch steps with loss only at final state of the branch</p>
+      <p><b>div-4-2-true-primal</b></p>
+      <p>diverted chain with four steps in main chain and branch chain of length two</p>
       <p>
-        <img class="img-fluid" src="div-2-2-false-primal.svg">
+        <img class="img-fluid" src="div-4-2-true-primal.svg">
       </p>
     </td>
     <td>
-      <p><b>div-2-2-false-full_gradient</b></p>
+      <p><b>div-4-2-true-full_gradient</b></p>
       <p>full gradient</p>
       <p>
-        <img class="img-fluid" src="div-2-2-false-full_gradient.svg">
+        <img class="img-fluid" src="div-4-2-true-full_gradient.svg">
+      </p>
+    </td>
+    <td>todo</td>
+    <td>todo</td>
+    <td>todo</td>
+  </tr>
+  <tr>
+    <td>
+      <p><b>div-4-2-false-primal</b></p>
+      <p>diverted chain with four steps in main chain and branch chain of length two with loss only at final state of the branch</p>
+      <p>
+        <img class="img-fluid" src="div-4-2-false-primal.svg">
+      </p>
+    </td>
+    <td>
+      <p><b>div-4-2-false-full_gradient</b></p>
+      <p>full gradient</p>
+      <p>
+        <img class="img-fluid" src="div-4-2-false-full_gradient.svg">
       </p>
     </td>
     <td>todo</td>
